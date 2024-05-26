@@ -3,7 +3,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity NeuronTestbench is
--- Testbench has no ports.
 end NeuronTestbench;
 
 architecture behavior of NeuronTestbench is

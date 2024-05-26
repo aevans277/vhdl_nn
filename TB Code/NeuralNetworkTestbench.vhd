@@ -2,7 +2,6 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity NeuralNetworkTestbench is
--- Testbench has no ports.
 end NeuralNetworkTestbench;
 
 architecture behavior of NeuralNetworkTestbench is

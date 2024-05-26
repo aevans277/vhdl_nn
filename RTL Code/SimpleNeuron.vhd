@@ -13,7 +13,7 @@ architecture Behavioral of SimpleNeuron is
     constant weight1 : integer := 1;
     constant weight2 : integer := 2;
     constant weight3 : integer := 3;
-    constant threshold : integer := 20; -- Threshold mentioned IN PAPER
+    constant threshold : integer := 20;
 begin
     process(input1, input2, input3)
         variable weighted_sum : integer;
@@ -22,7 +22,6 @@ begin
                         to_integer(signed(input2)) * weight2 +
                         to_integer(signed(input3)) * weight3;
                         
-        -- activation function is here///
         if weighted_sum > threshold then
             output <= '1'; 
         else

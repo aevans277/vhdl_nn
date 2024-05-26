@@ -3,7 +3,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity NeuralNetwork_pipelined_TB is
--- Testbench has no ports.
 end NeuralNetwork_pipelined_TB;
 
 architecture behavior of NeuralNetwork_pipelined_TB is
